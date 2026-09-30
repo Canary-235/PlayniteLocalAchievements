@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md) · English
 
-A Playnite extension that watches **local achievement events or state files** for non-Steam games, shows an achievement toast, and can synchronize the unlock time to an existing [SuccessStory](https://github.com/Lacro59/playnite-successstory-plugin) manual achievement list. Release: **v1.1**.
+A Playnite extension that watches **local achievement events or state files** for non-Steam games, shows an achievement toast, and can synchronize the unlock time to an existing [SuccessStory](https://github.com/Lacro59/playnite-successstory-plugin) manual achievement list. 
 
 It does not unlock achievements on Steam, bypass DRM, or invent completed achievements. A definition file alone is not an unlock event: the game and its local achievement provider must actually record an unlock. One optional RPG Maker MV compatibility path backs up and edits a game script **only after an explicit confirmation**; see below.
 
