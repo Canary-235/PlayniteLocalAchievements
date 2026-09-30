@@ -2,8 +2,7 @@
 
 简体中文 · [English](README.md)
 
-本插件监听非 Steam 游戏写入的**本地成就事件或状态文件**，弹出成就通知，并可将解锁时间同步到已有的 [SuccessStory](https://github.com/Lacro59/playnite-successstory-plugin) 手动成就列表。当前版本：**v1.1**。
-
+本插件监听非 Steam 游戏写入的**本地成就事件或状态文件**，弹出成就通知，并可将解锁时间同步到已有的 [SuccessStory](https://github.com/Lacro59/playnite-successstory-plugin) 手动成就列表。
 它不会解锁 Steam 账号成就、绕过 DRM，也不会凭空认定成就已完成。只有定义文件不等于已解锁；游戏和本地成就来源必须实际写入解锁记录。针对 RPG Maker MV 的可选兼容方案会在**明确征得同意后**备份并修改游戏脚本，详情见下文。
 
 ## 运行条件与依赖
