@@ -1,0 +1,14 @@
+# Local build outputs and downloaded packages
+*.dll
+*.pext
+*.zip
+*.bak
+*.tmp
+
+# IDE and operating-system files
+.vs/
+bin/
+obj/
+*.user
+Thumbs.db
+Desktop.ini

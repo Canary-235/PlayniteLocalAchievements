@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "FATAL FRAME II: Crimson Butterfly REMAKE",
+  "sources": [
+    {
+      "type": "snapshot",
+      "path": "%PUBLIC%\\Documents\\Steam\\RUNE\\3920610\\achievements.ini",
+      "encoding": "utf-8",
+      "match": "(?ms)^\\[(?<achievementId>[^\\]\\r\\n]+)\\]\\r?\\n(?:(?!^\\[).)*?^Achieved\\s*=\\s*1\\s*$",
+      "achievementGroup": "achievementId"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "Japan Stigmatized Property 3",
+  "sources": [
+    {
+      "type": "log",
+      "path": "%USERPROFILE%\\AppData\\LocalLow\\Loxarc\\jsp3\\Player.log",
+      "encoding": "utf-8",
+      "match": "\\u5b9f\\u7e3e\\u9001\\u4fe1\\u6210\\u529f:\\s*(?<achievementId>[a-z0-9_]+)",
+      "achievementGroup": "achievementId"
+    },
+    {
+      "type": "snapshot",
+      "path": "%USERPROFILE%\\AppData\\LocalLow\\Loxarc\\jsp3\\savedata.dat",
+      "encoding": "utf-8",
+      "match": "\\\"(?<achievementId>(?:stage[1-4]_(?:normal|hard|multi)_(?:clear|allanomalies)|allstage(?:s)?_[a-z_]+))\\\"\\s*:\\s*\\\"True\\\"",
+      "achievementGroup": "achievementId"
+    }
+  ]
+}

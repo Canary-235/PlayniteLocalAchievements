@@ -1,0 +1,12 @@
+Id: 6d1a3eae-5c61-4f1f-bb72-9c355dc0e5d9
+Name: 本地成就自动解锁
+Author: Canary-235
+Version: 1.1
+Module: LocalAchievements.dll
+Type: GenericPlugin
+Description: Monitors local achievement events and optionally synchronizes unlock times to SuccessStory.
+Links:
+  - Name: GitHub
+    Url: https://github.com/Canary-235/PlayniteLocalAchievements
+  - Name: Issues
+    Url: https://github.com/Canary-235/PlayniteLocalAchievements/issues
